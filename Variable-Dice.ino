@@ -10,6 +10,7 @@
 
 #include <arduinio.h>
 
+/*####################*/
 //## Die Definition ##//
 const int diceValues[] = {2, 4, 6, 8, 10, 12, 20, 100};
 
@@ -17,10 +18,13 @@ int dice_value = 7;
 
 const int minValue = 0;
 const int maxValue = 7;
+/*####################*/
 
+/*#######################*/
 //## Button Definition ##//
 #define dice_UP 2;
 #define dice_DN 3;
+/*#######################*/
 
 void setup() {
   Serial.begin(9600);
